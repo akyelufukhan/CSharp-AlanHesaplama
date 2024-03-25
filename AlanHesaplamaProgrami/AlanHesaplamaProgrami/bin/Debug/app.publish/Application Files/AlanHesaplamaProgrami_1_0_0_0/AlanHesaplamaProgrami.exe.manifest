@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AlanHesaplamaProgrami.exe" version="1.0.0.0" publicKeyToken="6fa2afc248189bf9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AlanHesaplamaProgrami" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AlanHesaplamaProgrami.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AlanHesaplamaProgrami.exe" size="7136">
+      <assemblyIdentity name="AlanHesaplamaProgrami" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bVLBdhIzo1mbl9EfIIXxuZ/VZqDm3mhquSsQYumAOZs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AlanHesaplamaProgrami.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-FK6VE7R\AKYEL" issuerKeyHash="281fe72b8e92a8789ffadefde91feb0ccdd7a610" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d7NeszLzOU2+upOvp4RE2lMWVPrcXmdgavbakIQll+w=</DigestValue></Reference></SignedInfo><SignatureValue>rW8DI5LR+sJEqWqjaKP5h788tMljSkZtEgr4RQaGbikVFqB9EqCQTpaWveaePEu/mWgJrBdd1nYEiBcbd+VIRsjzC9ELHFusn91hCH6PizJkwHtOAjw5L9S0/Ir4N0eppGloljxZmcoO3YRtHXycelxcQMF9k1vCNth1V/ewKP8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6k4gRr1TVLBoKsxtuANI9cIJuz5zcyoW7Wp9Mi2s+nSSD51mgh2m86qO4hcOoRWwr+ChVwoWqM4PyJZZnOXc0Cw0clO8P+RZUU5DAG4q2ol8c3GQXPaQDy53/ahr70+a3t55IHegov0wBQfZoF3XArUohuOW3ZN5tn2pkywhpAU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ec97258490daf66a60675edcfa541653da4484a7af93babe4d39f332b35eb377" Description="" Url=""><as:assemblyIdentity name="AlanHesaplamaProgrami.exe" version="1.0.0.0" publicKeyToken="6fa2afc248189bf9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-FK6VE7R\AKYEL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3GVzTf538YEIJsx4MDgHOiR7k7F8rlvFuLb68xZfe4A=</DigestValue></Reference></SignedInfo><SignatureValue>r5MRtdTlJV5ZqqR3jIpnQ6c34hpgXfTWXTR6TJdWnoucWeTsHqpeRIwBgEESuEodsRRumnyuX0eTJs1h3jni5PpY+Oa8SVP4nuviNGj6KuV5y+uLsJ66P2XSj8oxoLrszeGPKIbAGrMAER7+m6bppAx6/gXvb2tbEm+jz/0ryYU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6k4gRr1TVLBoKsxtuANI9cIJuz5zcyoW7Wp9Mi2s+nSSD51mgh2m86qO4hcOoRWwr+ChVwoWqM4PyJZZnOXc0Cw0clO8P+RZUU5DAG4q2ol8c3GQXPaQDy53/ahr70+a3t55IHegov0wBQfZoF3XArUohuOW3ZN5tn2pkywhpAU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZcBvYEf1SZhBuYPUOnWZujANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEYASwA2AFYARQA3AFIAXABBAEsAWQBFAEwwHhcNMjQwMzI1MDUzNTIyWhcNMjUwMzI1MTEzNTIyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEYASwA2AFYARQA3AFIAXABBAEsAWQBFAEwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOpOIEa9U1SwaCrMbbgDSPXCCbs+c3MqFu1qfTItrPp0kg+dZoIdpvOqjuIXDqEVsK/goVcKFqjOD8iWWZzl3NAsNHJTvD/kWVFOQwBuKtqJfHNxkFz2kA8ud/2oa+9Pmt7eeSB3oKL9MAUH2aBd1wK1KIbjlt2TebZ9qZMsIaQFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAj+uYq8nJfBk5gGVpZPMmqZ9ykjAc6wKsTNcjhNtzqrPg6bDu/TgaHcgzxtIVzzo2WHNuD7mqseFJzG9aTtosMTkgZpux7KjHU5yKMDIxI+xSyT5oN6ChrOgDjlClH121zZ395gXUxV+0mUmh6A4Ncsc5mn+2qBePVLdaUu0eex0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

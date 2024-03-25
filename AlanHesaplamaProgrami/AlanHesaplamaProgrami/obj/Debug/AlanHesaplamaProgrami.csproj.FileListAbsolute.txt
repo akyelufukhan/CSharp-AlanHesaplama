@@ -1,0 +1,11 @@
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\bin\Debug\AlanHesaplamaProgrami.exe.config
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\bin\Debug\AlanHesaplamaProgrami.exe
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\bin\Debug\AlanHesaplamaProgrami.pdb
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\obj\Debug\AlanHesaplamaProgrami.csproj.AssemblyReference.cache
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\obj\Debug\AlanHesaplamaProgrami.csproj.CoreCompileInputs.cache
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\obj\Debug\AlanHesaplamaProgrami.exe
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\obj\Debug\AlanHesaplamaProgrami.pdb
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\bin\Debug\AlanHesaplamaProgrami.exe.manifest
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\bin\Debug\AlanHesaplamaProgrami.application
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\obj\Debug\AlanHesaplamaProgrami.exe.manifest
+C:\Users\AKYEL\source\repos\AlanHesaplamaProgrami\AlanHesaplamaProgrami\obj\Debug\AlanHesaplamaProgrami.application
